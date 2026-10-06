@@ -1,0 +1,16 @@
+{
+  "name": "blood-bank-residency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "檢驗科住院醫師血庫與輸血醫學學習網站，可編輯原始碼",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}

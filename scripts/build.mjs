@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const content={};
+for(const [key,file] of [['lessons','lessons.json'],['cases','questions.json'],['sources','references.json']])content[key]=JSON.parse(await fs.readFile(path.join(root,'src/data',file),'utf8'));
+const refs=new Set(content.sources.map(x=>x.id));
+if(refs.size!==content.sources.length)throw Error('參考資料 ID 重複');
+for(const row of [...content.lessons,...content.cases])for(const id of row.refs)if(!refs.has(id))throw Error('不存在的參考資料：'+id);
+for(const q of content.cases)if(q.options.length!==4||!Number.isInteger(q.answer)||q.answer<0||q.answer>=4)throw Error('無效的題目選項／答案：'+q.title);
+await fs.mkdir(path.join(root,'dist'),{recursive:true});
+for(const name of ['index.html','styles.css','app.js'])await fs.copyFile(path.join(root,'src',name),path.join(root,'dist',name));
+await fs.writeFile(path.join(root,'dist/content.js'),'window.BLOOD_CONTENT = '+JSON.stringify(content,null,2)+';\n');
+console.log('建置完成：'+content.lessons.length+' 章／'+content.cases.length+' 題／'+content.sources.length+' 筆參考資料 → dist/');

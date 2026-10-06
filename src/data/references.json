@@ -1,0 +1,134 @@
+[
+  {
+    "id": "cbs",
+    "title": "Canadian Blood Services｜Pre-transfusion testing",
+    "url": "https://professionaleducation.blood.ca/en/transfusion/clinical-guide/pre-transfusion-testing",
+    "note": "輸血前檢驗、ABO 正反定型、RhD、抗體篩檢與緊急發血。加拿大檢體效期規範不等同台灣院內規範。"
+  },
+  {
+    "id": "sample",
+    "title": "Lifeblood｜Pretransfusion specimen collection & compatibility testing",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/transfusion-process/pretransfusion-specimen-collection-compatibility-testing",
+    "note": "檢體識別、72 小時原則、電子／立即離心／IAT 交叉試驗；頁面標示更新 2026 年 1 月。"
+  },
+  {
+    "id": "compat",
+    "title": "Lifeblood｜Component compatibility",
+    "url": "https://www.lifeblood.com.au/health-professionals/products/component-compatibility",
+    "note": "紅血球、血漿與血小板的 ABO／RhD 相容性，以及低效價血品例外。"
+  },
+  {
+    "id": "jpac",
+    "title": "JPAC Red Book｜13.3 Pre-transfusion testing（PDF）",
+    "url": "https://www.transfusionguidelines.org/red-book/chapter-13-patient-testing-red-cell-immunohaematology/13-3-pre-transfusion-testing.pdf",
+    "note": "ABO 異常、複雜抗體、自體抗體及單株抗體藥物干擾。原網站已改版，保留已查閱章節 PDF。"
+  },
+  {
+    "id": "anz",
+    "title": "ANZSBT｜Transfusion & immunohaematology laboratory practice（2025）",
+    "url": "https://anzsbt.org.au/wp-content/uploads/2025/06/Guidelines-for-transfusion-and-immunohaematology-laboratory-practice_June-2025-PUBLISHED-1.pdf",
+    "note": "免疫血液學實驗室實務、方法驗證與藥物干擾。各機構仍須採用自身認證規範。"
+  },
+  {
+    "id": "drug",
+    "title": "Quach et al.｜Anti-CD38 daratumumab 與輸血檢驗（2018）",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/imj.13707",
+    "note": "DTT 處理及 Kell 抗原破壞的限制；與較新的實驗室指南搭配閱讀。"
+  },
+  {
+    "id": "special",
+    "title": "Canadian Blood Services｜Irradiated, washed & CMV-seronegative components",
+    "url": "https://professionaleducation.blood.ca/en/transfusion/clinical-guide/irradiated-washed-and-cmv-seronegative-blood-components",
+    "note": "照射、洗滌、減白與 CMV 風險降低的目的及差異；最後更新 2024 年。"
+  },
+  {
+    "id": "rbc",
+    "title": "AABB｜Clinical practice resources：2023 RBC guidelines",
+    "url": "https://www.aabb.org/news-resources/resources/clinical-practice-resources",
+    "note": "限制性紅血球輸血策略與個別臨床情境。"
+  },
+  {
+    "id": "ami",
+    "title": "AABB｜Red-cell transfusion in acute myocardial infarction（2025）",
+    "url": "https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami",
+    "note": "急性心肌梗塞：Hb <10 g/dL 時建議較寬鬆策略，屬條件式、低確定性證據。"
+  },
+  {
+    "id": "plt",
+    "title": "AABB / ICTMG｜Platelet transfusion guidelines（2025）",
+    "url": "https://www.aabb.org/news-resources/news/article/2025/05/29/aabb-develops-new-platelet-transfusion-guidelines",
+    "note": "依病人及處置分類的血小板輸血閾值；腰椎穿刺建議與舊版不同。"
+  },
+  {
+    "id": "reaction",
+    "title": "Lifeblood｜Management of suspected reactions",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions",
+    "note": "懷疑輸血反應時的立即處置、病人識別及後續檢驗。"
+  },
+  {
+    "id": "hemolysis",
+    "title": "Lifeblood｜Acute haemolytic reactions",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/acute-haemolytic-reactions",
+    "note": "急性溶血反應症狀與輸血前後檢體比較。"
+  },
+  {
+    "id": "dhtr",
+    "title": "Lifeblood｜Delayed haemolytic transfusion reactions",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/DHTR",
+    "note": "回憶性免疫反應、抗體消退與 DHTR 調查。"
+  },
+  {
+    "id": "taco",
+    "title": "Lifeblood｜Transfusion-associated circulatory overload",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/TACO",
+    "note": "TACO 的臨床線索與輸血後 12 小時內的監測定義。"
+  },
+  {
+    "id": "trali",
+    "title": "Lifeblood｜Transfusion-related acute lung injury",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/TRALI",
+    "note": "TRALI 的 6 小時時窗、臨床診斷及支持治療；頁面標示更新 2026 年 9 月。"
+  },
+  {
+    "id": "ptr",
+    "title": "Lifeblood｜Platelet disorders & refractoriness",
+    "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/clinical-indications/platelet-disorders",
+    "note": "重複低增幅的確認、CCI 計算、免疫與非免疫原因。"
+  },
+  {
+    "id": "mtp",
+    "title": "Canadian Blood Services｜Massive hemorrhage & emergency transfusion",
+    "url": "https://professionaleducation.blood.ca/en/transfusion/clinical-guide/massive-hemorrhage-and-emergency-transfusion",
+    "note": "大量出血流程、緊急血品、低溫／低鈣及凝血監測；2021 年章節，搭配最新院內大量輸血流程。"
+  },
+  {
+    "id": "components",
+    "title": "Canadian Blood Services｜Blood components",
+    "url": "https://professionaleducation.blood.ca/en/transfusion/clinical-guide/blood-components",
+    "note": "血漿適應症、凝血因子替代、warfarin／DOAC 逆轉與血品限制。"
+  },
+  {
+    "id": "hdfn",
+    "title": "Canadian Blood Services｜HDFN & perinatal immune thrombocytopenia",
+    "url": "https://professionaleducation.blood.ca/en/transfusion/clinical-guide/hemolytic-disease-fetus-and-newborn-and-perinatal-immune",
+    "note": "2018 年基礎章節：母體抗體、胎兒／新生兒風險及 RhIg 原理。孕期處置時程與劑量須核對最新當地指南。"
+  },
+  {
+    "id": "pediatric",
+    "title": "Canadian Blood Services｜Neonatal & pediatric transfusion",
+    "url": "https://professionaleducation.blood.ca/en/transfusion/clinical-guide/neonatal-and-pediatric-transfusion",
+    "note": "母體抗體、兒科檢體與小容量輸血、特殊血品選擇。"
+  },
+  {
+    "id": "pbm",
+    "title": "AABB｜Patient Blood Management toolkit",
+    "url": "https://www.aabb.org/blood-biotherapies/blood/transfusion-medicine/patient-blood-management/patient-blood-management-toolkit",
+    "note": "PBM 的病人導向決策與輸血使用改善資源。"
+  },
+  {
+    "id": "rbcfull",
+    "title": "ISBT｜2023 AABB International RBC guidelines 摘要",
+    "url": "https://www.isbtweb.org/resource/red-blood-cell-transfusion-2023-aabb-international-guidelines.html",
+    "note": "明確列出穩定住院成人 Hb <7 g/dL 的考慮閾值及特殊族群。"
+  }
+]
